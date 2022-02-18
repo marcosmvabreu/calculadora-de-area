@@ -1,0 +1,52 @@
+
+
+.titulo{
+    width: 100%;
+    color: black;
+}
+
+.nome{
+    width: 100%;
+    color: black;
+}
+
+.saldo{
+    margin-left: 10%;
+    color: black;
+}
+
+.header{
+    margin-bottom: 20px;
+}
+
+.botao{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.saida-dados{
+    margin-top: 10px;
+}
+
+.tag:not(body){
+    background-color: white;
+}
+
+.title:not(:last-child){
+    margin-bottom: 0;
+}
+
+hr{
+    background-color: #4a4a4a
+}
+
+#resultado{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.image{
+    
+    margin-top: 5px;
+}

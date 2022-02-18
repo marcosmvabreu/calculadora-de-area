@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4"></div>
+                <div class="column coluna-principal">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    
+                                    <p class="title is-4 tag titulo">Calcular área do quadrado</p>                              
+                                    <figure class=" image">
+                                        <img src="imagens/quadradoOficial.png"> 
+                                    </figure>
+                                    <hr>
+                                    <div class="field">
+                                        <label for="altura" class="label"><p class="title is-4">Altura</p></label>
+                                        <div class="control">
+                                          <input id="altura" class="input is-large" type="number" placeholder="Digite a altura em cm">
+                                        </div>
+                                    </div>
+                                      
+                                    <button id="calcular" class="button is-black botao is-large">Calcular</button>
+                                    <a href="index.html"> <button class="button is-link botao is-large">Voltar</button> </a>
+
+                                    <article class="message saida-dados is-black">
+                                        <div id="resultado" class="message-body">
+                                            
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4"></div>
+            </div>
+        </div>
+    </div>
+    <script src="quadrado.js"></script>
+</body>
+</html>
